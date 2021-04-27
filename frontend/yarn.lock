@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"-@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/-/-/--0.0.1.tgz#db6db7cd866142880dd03e5b8781d1b4fac0e5bd"
+  integrity sha512-3HfneK3DGAm05fpyj20sT3apkNcvPpCuccOThOPdzz8sY7GgQGe0l93XH9bt+YzibcTIgUAIMoyVJI740RtgyQ==
+
+"2@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/2/-/2-1.0.2.tgz#356a6f50b4851a311547570c616c6e8ef4b464c1"
+  integrity sha1-NWpvULSFGjEVR1cMYWxujvS0ZME=
+
+"3@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/3/-/3-2.1.0.tgz#08c61a6de22b4d35ee744b7fa2badd5180b4b4e3"
+  integrity sha512-rEoeK/qBZCLzqt9a3Q3Dnb5TUyXnZlxVaWr9ZXBV65Ppzcz59dx3Ik5YUxtni+36CtZgJdhQaYkLgHBdqjxjoA==
+  dependencies:
+    "2" "^1.0.2"
+    chunk-array "^1.0.2"
+    enforce-range "^1.0.0"
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -2808,6 +2827,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
+  integrity sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -3216,6 +3240,11 @@ chrome-trace-event@^1.0.2:
   integrity sha512-9e/zx1jw7B4CO+c/RXoCsfg/x1AfUBioy4owYH0bJprEYAx5hRFLRhWBqHAG57D0ZM4H7vxbP7bPe0VwhQRYDQ==
   dependencies:
     tslib "^1.9.0"
+
+chunk-array@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/chunk-array/-/chunk-array-1.0.2.tgz#78211ff5502bc57b6c76043d8cc606a4423b79ef"
+  integrity sha1-eCEf9VArxXtsdgQ9jMYGpEI7ee8=
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -4280,6 +4309,13 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
   dependencies:
     once "^1.4.0"
+
+enforce-range@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/enforce-range/-/enforce-range-1.0.0.tgz#f10ccc0396e23684b413d73661d020d192e5ba70"
+  integrity sha1-8QzMA5biNoS0E9c2YdAg0ZLlunA=
+  dependencies:
+    "2" "^1.0.2"
 
 enhanced-resolve@^4.3.0:
   version "4.5.0"
@@ -6612,6 +6648,11 @@ jest@26.6.0:
     import-local "^3.0.2"
     jest-cli "^26.6.0"
 
+jquery@1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.9.1.tgz#e4cd4835faaefbade535857613c0fc3ff2adaf34"
+  integrity sha1-5M1INfqu+63lNYV2E8D8P/KtrzQ=
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -8016,6 +8057,11 @@ pnp-webpack-plugin@1.6.4:
   integrity sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
   dependencies:
     ts-pnp "^1.1.6"
+
+popper.js@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.26:
   version "1.0.28"
